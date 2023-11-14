@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav, header, main {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section:nth-of-type(2) {
+  margin-top: 100px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+footer > p{
+  text-align: center;
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
